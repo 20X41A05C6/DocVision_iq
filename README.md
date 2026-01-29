@@ -176,6 +176,10 @@ DOCVISION_IQ/
 ├── frontend/
 │   └── app.py
 │
+├── notebooks/
+│   ├── 01_exploration.ipynb
+│   └── 02_evalution.ipynb
+│
 ├── src/
 │   ├── config.py
 │   ├── main.py
