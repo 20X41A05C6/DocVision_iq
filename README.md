@@ -218,6 +218,18 @@ docker run -p 8000:8000 -p 8501:8501 --env-file .env docvision
 | **Streamlit UI** | http://localhost:8501 |
 | **FastAPI Docs** | http://localhost:8000/docs |
 
+## 🧪 Validation & Constraints
+
+| Rule | Limit |
+|------|-------|
+| Supported formats | `.png`, `.jpg`, `.jpeg`, `.pdf` |
+| Max images per batch | **5** |
+| Max PDFs per batch | **3** |
+| Max PDF size | **10 MB** |
+| Max image size | **5 MB** |
+| Resolution checks | Enabled |
+| Error handling | Per-file (non-blocking) |
+
 ---
 
 ## 👨‍💻 Author
